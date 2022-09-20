@@ -5,6 +5,9 @@ geolocator = Nominatim(user_agent="geoapiExercises")
 
 #Grab Lat and Long Based on Entry
 def location_search():
+    """
+    Find the latitude and longitude of a city that is entered into the input prompt.
+    """
     
     location = input("Enter City and State")
     
@@ -25,4 +28,29 @@ def location_search():
         Please Try Entering Your Location Information Again
         
         """
+        
+        
+        
+        
+def my_location():
+    """ 
+    Find the latitude and longitude of the user's current device location
+    """
+    
+    try:
+        g = geocoder.ip('me')
+
+        lat, lng = g.latlng
+
+        return [lat, lng]
+    
+    except:
+        """
+        Location Not Found!
+        
+        Please Try Entering Your Location Information Again
+        
+        """
+
+
     
