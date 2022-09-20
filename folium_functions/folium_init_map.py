@@ -5,7 +5,7 @@ from folium_functions.location_latlng import my_location
 
 
 
-#Create the Initial Folium Map
+#Create the Initial Folium Mapdsewqsa   az-'
 def create_folium_map(address = "my-address", tiles = "OpenStreetMap", zoom_start = 10, zoom_conrtol = True, scrollWheelZoom=True, width = "100%", height = "100%", position = "relative"):
     """
     Creates an Initial Simple Folium Map and Zooms to Location, the map will display a pin based on the latitutde, longitude
