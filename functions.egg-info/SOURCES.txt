@@ -1,9 +1,9 @@
 README.md
 setup.py
-folium-functions/__init__.py
-folium-functions/folium-add-to-map.py
-folium-functions/folium-init-map.py
-folium-functions/location-latlng.py
+folium_functions/__init__.py
+folium_functions/folium_add_to_map.py
+folium_functions/folium_init_map.py
+folium_functions/location_latlng.py
 functions.egg-info/PKG-INFO
 functions.egg-info/SOURCES.txt
 functions.egg-info/dependency_links.txt

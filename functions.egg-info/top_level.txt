@@ -1,1 +1,1 @@
-folium-functions
+folium_functions

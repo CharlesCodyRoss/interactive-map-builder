@@ -1,7 +1,4 @@
-streamlit
 folium
 pandas
 geopy
 geocoder
-
-git+https://github.com/CharlesCodyRoss/interactive-map-builder@main#egg=folium-functions
