@@ -11,8 +11,9 @@ By using the **create_folium_map()** function you can instantly create a fully i
 
 In order to initate use of these packages simply run the below steps in your python environment
 
-    * In your command line, run the following command within the python evironment of your choosing.
-      Creating a new virtual environment is stongly recommended before using the package.
+In your command line, run the following command within the python evironment of your choosing.
+
+    * Creating a new virtual environment is stongly recommended before using the package.
         * *pip install -e .*
 
     * When in python, import the folium map intializer by calling
